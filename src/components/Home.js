@@ -1,4 +1,7 @@
 import React from "react";
+import user from "../data/user.js"
+
+
 
 function Home(props) {
   return (
@@ -7,7 +10,7 @@ function Home(props) {
         {props.name} is a Web Developer from {props.city}
       </h1>
     </div>
-  );
+  ); 
 }
 
 export default Home;
